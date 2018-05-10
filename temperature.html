@@ -25,6 +25,8 @@
             Plots <span class="caret"></span> 
           </a>
           <ul class="dropdown-menu">
+            <li align=center><strong>--Weather Viz--</strong></li> 
+            <li role="separator" class="divider"></li>
             <li><a href="temperature.html">Temperature (&deg;F)</a></li>
             <li><a href="humidity.html">Humidity</a></li>
             <li><a href="cloudiness.html">Cloudiness</a></li>
@@ -50,7 +52,29 @@
 
   <img src="data/LatByTemp.png" align="middle">
   <br>
-  As we expected, the data shows that as you get closer to the equator (i.e., 0 degrees latitude), the temperature gets hotter.
+  <p>
+    This chart plots each city's latitude compared to its temperature.  
+    The x-axis represents the latitude for each city, with 0 being the equator.  
+    Positive numbers go farther north on a map and negative numbers go farther south.
+    The y-axis represents the temperature in degrees Fahrenheit.  
+    I grouped the temperature readings into four categories: 
+    cold (&lt;40&deg;),
+    cool (40&deg;-60&deg;),
+    warm (60&deg;-80&deg;) and
+    hot (&gt;80&deg;).
+  </p>
+  <p>
+    As expected, the data shows that as you get closer to the equator, 
+    the temperature gets hotter.
+    The amount of red dots, which represent cities with hot temperatures, are clearly located 25 degrees north or south of the equator (i.e., +/- 1,700 miles).
+  </p>
+
+  <div style="position: relative">
+      <p style="position: fixed; bottom: 0; width:100%; text-align: center"> 
+        <a href = "http://glyphicons.com/">Glyphicons
+        </a>
+      </p>
+  </div> 
 
 </div>
 

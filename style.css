@@ -1,5 +1,5 @@
 /* Add a black background color to the top navigation */
-p, a, span {
+p, a, li, span {
     font-family: Verdana, Geneva, Tahoma, serif;
 }
 

@@ -25,6 +25,8 @@
             Plots <span class="caret"></span> 
           </a>
           <ul class="dropdown-menu">
+            <li align=center><strong>--Weather Viz--</strong></li> 
+            <li role="separator" class="divider"></li>
             <li><a href="temperature.html">Temperature (&deg;F)</a></li>
             <li><a href="humidity.html">Humidity</a></li>
             <li><a href="cloudiness.html">Cloudiness</a></li>
@@ -51,7 +53,23 @@
 
   <img src="data/LatByHumidity.png" align="middle" >
   <br>
-  In looking around +50 degrees latitude, there is a cluster of cities with ~70-90% humidity.  Outside of that, humidity levels were fairly dispersed across cities.
+  <p>
+    This chart plots each city's latitude by its humidity.  
+    The x-axis represents the latitude for each city, with 0 being the equator.  
+    Positive numbers go farther north on a map and negative numbers go farther south.
+    The y-axis represents the humidity percentage.  
+    At the bottom of the chart is 0 (i.e., no humidity) and the top of the chart is 100% (i.e., very humid).
+  </p>
+  <p>
+    The data doesn't appear to show a relationship between location and humidity.
+    There are cities with high humidity and cities with low humidity at nearly every location.
+  </p>
+  <div style="position: relative">
+    <p style="position: fixed; bottom: 0; width:100%; text-align: center"> 
+      <a href = "http://glyphicons.com/">Glyphicons
+      </a>
+    </p>
+   </div> 
 
 </div>
 

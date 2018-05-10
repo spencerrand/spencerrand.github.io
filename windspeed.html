@@ -25,6 +25,8 @@
           Plots <span class="caret"></span> 
         </a>
         <ul class="dropdown-menu">
+          <li align=center><strong>--Weather Viz--</strong></li> 
+          <li role="separator" class="divider"></li>
           <li><a href="temperature.html">Temperature (&deg;F)</a></li>
           <li><a href="humidity.html">Humidity</a></li>
           <li><a href="cloudiness.html">Cloudiness</a></li>
@@ -45,13 +47,32 @@
             Data
           </a>
         </li>
-    </ul>
-      
+    </ul>  
+
   </div>  
 
-<img align="middle" src="data/LatByWindspeed.png">
-<br>
-In looking around +50 degrees latitude, there is a cluster of cities with ~5-10 mph windspeed.  Outside of that, windspeed levels were fairly dispersed across cities.
+  <br>
+  <img align="center" src="data/LatByWindspeed.png">
+  <br>
+  <p>
+    This chart plots each city's latitude compared to its wind speed.  
+    The x-axis represents the latitude for each city, with 0 being the equator.  
+    Positive numbers go farther north on a map and negative numbers go farther south.
+    The y-axis represents the wind speed measured in miles per hour (mph).  
+  </p>  
+
+  <p>
+    The data doesn't appear to show a relationship between location and wind speed.
+    There are cities with high wind speeds and cities with low wind speeds both near the equator and
+    far away from the equator.
+  </p>
+
+  <div style="position: relative">
+    <p style="position: fixed; bottom: 0; width:100%; text-align: center"> 
+      <a href = "http://glyphicons.com/">Glyphicons
+      </a>
+    </p>
+  </div> 
 
 </div>
 

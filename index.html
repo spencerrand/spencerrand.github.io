@@ -25,6 +25,8 @@
             Plots <span class="caret"></span> 
           </a>
           <ul class="dropdown-menu">
+            <li align=center><strong>--Weather Viz--</strong></li> 
+            <li role="separator" class="divider"></li>
             <li><a href="temperature.html">Temperature (&deg;F)</a></li>
             <li><a href="humidity.html">Humidity</a></li>
             <li><a href="cloudiness.html">Cloudiness</a></li>
@@ -48,22 +50,36 @@
       </ul>     
   </div>
 
-    <br>
-    <div class="row">
+  <br>
+  <div class="row">
+    <div class="col-md-12">
+      <p>Eveyone knows that the temperature gets hotter as you approach the equator, but can we use data to definitively prove it?
+        <br>
+        The purpose of this project was to answer this question by analyzing weather data points for various cities in relation to their position on the globe.</p>
+    </div>
+  </div> 
+  <br>
+  <div class="row">
       <div class="col-md-12">
-        <p>Eveyone knows that the temperature gets hotter as you approach the equator, but can we use data to definitively prove it?
-            I wrote a Python script to visualize the weather of over 500 cities across the world.  The cities were chosen at random so that they are of varying distances from the equator.
-        </p>
+        <p>In conducting the analysis, I pulled data from the <a href="https://openweathermap.org/">OpenWeatherMap</a> API for over 500 cities.  After creating the dataset using Pandas, 
+          I used the Matplotlib and Seaborn libraries in Python to create four visualizations:</p>
+        <ol>
+          <li><a href="temperature.html">Temperature (&deg;F)</a></li>
+          <li><a href="humidity.html">Humidity</a></li>
+          <li><a href="cloudiness.html">Cloudiness</a></li>
+          <li><a href="windspeed.html">Wind Speed</a></li>
+        </ol>
+          
       </div>
-    </div> 
+    </div>
+  </div> 
 
-    <div class="row">
-        <div class="col-md-12">
-          <p>The script makes an API request to OpenWeatherMap and creates a representative model.</p>
-        </div>
-      </div>
-    </div> 
-  
+  <div style="position: relative">
+    <p style="position: fixed; bottom: 0; width:100%; text-align: center"> 
+      <a href = "http://glyphicons.com/">Glyphicons
+      </a>
+    </p>
+  </div>    
 </div> 
   
 </body>

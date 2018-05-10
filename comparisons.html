@@ -25,6 +25,8 @@
           Plots <span class="caret"></span> 
         </a>
         <ul class="dropdown-menu">
+          <li align=center><strong>--Weather Viz--</strong></li> 
+          <li role="separator" class="divider"></li>
           <li><a href="temperature.html">Temperature (&deg;F)</a></li>
           <li><a href="humidity.html">Humidity</a></li>
           <li><a href="cloudiness.html">Cloudiness</a></li>
@@ -49,23 +51,33 @@
       
   </div>
 
+  <p>Click on any image for more details.</p> 
+
   <div class="row">
     <div class="col-sm-6 col-md-6">
-      <img class="center-block" src="data/LatByTemp.png" height = 500 width = 600>
+      <a href="temperature.html"><img class="center-block" src="data/LatByTemp.png" height = 500 width = 600></a>
     </div>
     <div class="col-sm-6 col-md-6">
-      <img class="center-block" src="data/LatByCloudiness.png" height = 500 width = 600>
+      <a href="cloudiness.html"><img class="center-block" src="data/LatByCloudiness.png" height = 500 width = 600></a>
     </div>
   </div>
 
   <div class="row">
     <div class="col-sm-6 col-md-6">
-      <img class="center-block" src="data/LatByWindspeed.png" height = 500 width = 600>
+      <a href="windspeed.html"><img class="center-block" src="data/LatByWindspeed.png" height = 500 width = 600></a>
     </div>
     <div class="col-sm-6 col-md-6">
-      <img class="center-block" src="data/LatByHumidity.png" height = 500 width = 600>
+      <a href="humidity.html"><img class="center-block" src="data/LatByHumidity.png" height = 500 width = 600></a>
     </div>
   </div>
+
+  <div style="position: relative">
+      <p style="position: fixed; bottom: 0; width:100%; text-align: center"> 
+        <a href = "http://glyphicons.com/">Glyphicons
+        </a>
+      </p>
+    </div> 
+
 </div>
   
 </body>
